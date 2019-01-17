@@ -1,0 +1,15 @@
+git init
+echo "# Final_exercises" >> README.md
+git init
+gedit README.md
+git add README.md
+git commit -m "exercise 1 init"
+git remote add origin https://github.com/KlaasVanden/Final_exercises.git
+git push -u origin master
+
+gedit exercise1.text
+git add README.md
+git commit -m "exercise1"
+git push -u origin master
+
+
